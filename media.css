@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) {
+    
+    
+  header{
+      padding: 33px 16px 61px 16px;
+      width: 360px;
+      height: 695px;
+      margin: 0;
+      flex-direction: column;
+  }
+  nav{
+      display: flex;
+      justify-content: flex-end;
+  }
+  #menu{
+      display: none;
+  }
+  #introduction{
+      flex-direction: column;
+  }
+  #introduction h2{
+      font-size: 36px;
+  }
+  #introduction img{
+      width: 329px;
+  }
+  .half-width.banner{
+      width: 329px;
+      margin: 50px 0 0 0;
+  }
+  main{
+      width: 360px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  #players{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin: 0;
+      width: 330px;
+  }
+  #highlights{
+      display: flex;
+      flex-direction: column;
+      width: 329px;
+      margin-top: 60px;
+      align-items: center;
+  }
+  #highlights h2{
+      font-size: 30px;
+  }
+  #highlights img{
+      margin-top: 29px;
+      width: 328px;
+  }
+  #youtube-video{
+      margin-top: 50px;
+      padding: 0;
+      width: 328px;
+  }
+  
+  #sponsor h2{
+      font-size: 30px;
+  }
+  .half-width{
+      width: 100%;
+  }
+  .half-width.match{
+      margin: 0;
+  }
+  #sponsor-list{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+  }
+  #sponsor h2{
+      font-size: 30px;
+  }
+  #footer-container{
+      margin-top: 100px;
+  }
+}

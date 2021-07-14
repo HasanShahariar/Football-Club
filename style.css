@@ -31,6 +31,7 @@ nav{
     color: rgb(200, 200, 200);
 }
 .button{
+    display: inline-block;
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF;
@@ -65,9 +66,10 @@ nav{
 /* Main */
 /* Players */
 main{
-    padding: 70px 180px 0 180px;
+    /* padding: 70px 180px 0 180px; */
 }
 #players{
+    margin: 70px 180px 0 180px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 28px;
@@ -94,7 +96,7 @@ main{
 /* All Highlights */
 #highlights{
     display: flex;
-    margin-top: 165px;
+    margin: 165px 180px 0 180px;
 }
 #highlights h2{
     color: black;
@@ -117,7 +119,7 @@ main{
 }
 /* Youtube Video Section */
 #youtube-video{
-    margin-top: 85px;
+    padding: 85px 180px 0 180px;
     display: flex;
     justify-content: center;
 }
@@ -127,7 +129,8 @@ main{
 
 /* Sponsore Section */
 #sponsor{
-    margin-top: 70px;
+    margin: 70px 100px 0 100px;
+    width: 85%;
 }
 #sponsor h3{
     text-align: center;
@@ -144,7 +147,7 @@ main{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 #sponsores-list img{
-    width: 100%;
+    width: 65%;
 }
 /* Footer */
 footer{
