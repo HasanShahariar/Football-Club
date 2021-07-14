@@ -1,6 +1,5 @@
 @media only screen and (max-width: 600px) {
-    
-    
+  /* ----------Header --------------*/
   header{
       padding: 33px 16px 61px 16px;
       width: 360px;
@@ -28,6 +27,7 @@
       width: 329px;
       margin: 50px 0 0 0;
   }
+  /* ------------Main------------- */
   main{
       width: 360px;
       padding: 16px;
@@ -36,6 +36,7 @@
       align-items: center;
       
   }
+  /* --------Players Section-------- */
   #players{
       display: grid;
       grid-template-columns: repeat(1,1fr);
@@ -45,6 +46,7 @@
   .player{
     width: 300px;
   }
+  /* -----------Highlights Section--------- */
   #highlights{
       display: flex;
       flex-direction: column;
@@ -59,12 +61,13 @@
       margin-top: 29px;
       width: 328px;
   }
+  /* -----------Youtube Section--------- */
   #youtube-video{
       margin-top: 50px;
       padding: 0;
       width: 328px;
   }
-  
+  /* --------Sponsore And half width-------- */
   #sponsor h2{
       font-size: 30px;
   }
@@ -81,6 +84,7 @@
   #sponsor h2{
       font-size: 30px;
   }
+  /* ----------footer----------- */
   #footer-container{
       margin-top: 100px;
   }
