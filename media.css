@@ -42,6 +42,9 @@
       margin: 0;
       width: 330px;
   }
+  .player{
+    width: 300px;
+  }
   #highlights{
       display: flex;
       flex-direction: column;
